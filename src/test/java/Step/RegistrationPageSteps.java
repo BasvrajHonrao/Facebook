@@ -1,14 +1,15 @@
 package Step;
 
+import BaseLayer.BaseClass;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
 
 
-public class RegistrationPageSteps {
+public class RegistrationPageSteps extends BaseClass {
 	@Given("user is on rgisterpage")
 	public void user_is_on_rgisterpage() {
-	   ;
+	   
 	}
 
 	@When("user enter valid fname,lname,emil,pass")
